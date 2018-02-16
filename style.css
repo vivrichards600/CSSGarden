@@ -94,11 +94,11 @@ h3 {
 
 
 
-.preamble a , .participation a{
+.preamble a , .participation a, requirements a{
 	color: #00ADEF;
 }
 
-.preamble a:hover , .participation a:hover {
+.preamble a:hover , .participation a:hover, requirements a:hover {
 	color:#1580a9;
 }
 
