@@ -1,0 +1,189 @@
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+
+body, input, select, textarea {
+   font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+	margin:0;
+}
+
+header {
+	    background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebe60893fc022aa0687d2/1479458410257/?format=1500w);
+       background-position: center; 
+     height: 100vh;
+     background-size: cover;
+	 
+	 
+}
+
+
+header h1 {
+    position: absolute;
+    top: -50px;
+    padding: 30px;
+    background-color: #00ADEF;
+    width: 225px;
+    font-size: 3em; 
+	color:white;
+}
+
+header h2 {
+	position: absolute;
+    top: 40%;
+    color: black;
+    font-size: 2.5em;
+    background-color: white;
+    opacity: 0.8;
+    padding: 2px 5px;
+}
+
+a {
+	color:#009688;
+}
+
+a:hover {
+	color:#036158;
+}
+
+abbr {
+	cursor:help;
+}
+
+.summary {
+    background-color: #ED028B;
+    color: white;
+    margin: 0px;
+    padding: 80px 160px;
+    text-align: center;
+}
+
+
+.summary a {
+	   /* background-color: #607185;
+   */ padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    clear: both;
+}
+
+.summary a:hover {
+	color:#d6c5c5;
+}
+
+
+.preamble, .participation {
+	background-color: #fff;
+    color: #00ADEF;
+    margin: 0px;
+    padding: 80px 160px;
+    text-align: center;
+}
+
+h3 {
+	font-size:2em;
+}
+
+.preamble p, .participation p {
+	margin-top:40px;
+}
+
+
+
+.preamble a , .participation a{
+	color: #00ADEF;
+}
+
+.preamble a:hover , .participation a:hover {
+	color:#1580a9;
+}
+
+.explanation, .benefits {
+	color: white;
+    text-align: center;
+	
+	
+	 background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebdf5893fc022aa06857b/1479458307769/?format=1500w);
+       background-position: center; 
+     background-size: cover;
+	
+}
+
+.explanation h3, .benefits h3 {
+		background: rgb(140, 198, 62);
+    margin: 0;
+    opacity: 0.9;
+    padding-top: 70px;
+}
+
+.explanation p, .benefits p {
+    background: rgb(140, 198, 62);
+    opacity: 0.9;
+	margin:0px;
+	padding: 10px 150px 80px 150px;
+}
+
+
+.benefits {
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
+    
+}
+
+.requirements {
+	background-color: #fff;
+    color: #009688;
+    margin: 0px;
+    padding: 80px 160px;
+    text-align: center;
+}
+
+.sidebar {
+	
+}
+
+footer {
+	background-color: #000;
+    color: white;
+    text-align: center;
+	padding:20px;
+	
+}
+
+footer a {
+	color: #FFF;
+}
+
+footer a:hover {
+	color:#e8e1e1;
+}
+
+.wrapper {
+	background-color: #00ADEF;
+    width: 100%;
+    float: left;
+}
+
+.design-selection, .design-archives, .zen-resources {
+	width:30%;
+	float:left;
+	color:white;
+	margin: 25px;
+}
+
+
+.design-selection a, .design-archives a, .zen-resources a {
+	color:white;
+}
+
+
+.design-selection a:hover, .design-archives a:hover, .zen-resources a:hover {
+	color:#e8e1e1;
+}
+
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+	font-size:1.2em;
+	color:white;
+	padding-left:40px;
