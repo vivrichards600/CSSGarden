@@ -161,21 +161,30 @@ footer a:hover {
 }
 
 .wrapper {
-	background-color: #00ADEF;
     width: 100%;
     float: left;
+	
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
+	  background-position: center; 
+     background-size: cover;
 }
+
+
 
 .design-selection, .design-archives, .zen-resources {
 	width:30%;
 	float:left;
-	color:white;
+	color:black;
 	margin: 25px;
+	
+	
+	background: rgb(255, 255, 255);
+    opacity: 0.9;
 }
 
 
 .design-selection a, .design-archives a, .zen-resources a {
-	color:white;
+	color:black;
 }
 
 
@@ -185,5 +194,23 @@ footer a:hover {
 
 .design-selection h3, .design-archives h3, .zen-resources h3 {
 	font-size:1.2em;
-	color:white;
+	color:#000;
 	padding-left:40px;
+	
+}
+
+
+
+.design-selection {
+	background-color:#00ADEF;
+} 
+
+.design-archives {
+	background-color:#ED028B;
+} 
+
+
+.zen-resources {
+	background-color:rgb(140, 198, 62);
+	
+}
