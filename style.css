@@ -29,7 +29,8 @@ header h1 {
     width: 225px;
     font-size: 3em; 
 	color:white;
-}
+ }
+
 
 header h2 {
 	position: absolute;
@@ -112,6 +113,8 @@ h3 {
 	
 }
 
+
+
 .explanation h3, .benefits h3 {
 		background: rgb(140, 198, 62);
     margin: 0;
@@ -126,6 +129,14 @@ h3 {
 	padding: 10px 150px 80px 150px;
 }
 
+.benefits h3, .benefits p {
+	    background-color: #ed028b;
+}
+.benefits p {
+	    background-color: #ed028b;
+}
+
+
 
 .benefits {
 	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
@@ -134,14 +145,10 @@ h3 {
 
 .requirements {
 	background-color: #fff;
-    color: #009688;
+    color: #00ADEF;
     margin: 0px;
     padding: 80px 160px;
     text-align: center;
-}
-
-.sidebar {
-	
 }
 
 footer {
@@ -164,9 +171,11 @@ footer a:hover {
     width: 100%;
     float: left;
 	
-	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebde0893fc022aa06850b/1479458286611/?format=1500w);
 	  background-position: center; 
      background-size: cover;
+	 
+	 height:400px;
 }
 
 
@@ -214,3 +223,4 @@ footer a:hover {
 	background-color:rgb(140, 198, 62);
 	
 }
+
