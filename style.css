@@ -152,7 +152,7 @@ h3 {
 }
 
 footer {
-	background-color: #000;
+	background-color: #00ADEF;
     color: white;
     text-align: center;
 	padding:20px;
@@ -222,5 +222,13 @@ footer a:hover {
 .zen-resources {
 	background-color:rgb(140, 198, 62);
 	
+}
+
+
+
+
+.requirements, .participation, .preamble {
+	background-color:black;
+	color:white;
 }
 
