@@ -211,14 +211,19 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-		/*Footer container styles*/
+	/*Footer container styles*/
 	.design-selection, .design-archives, .zen-resources {
 		width:100% !important;
 		margin: 0px !important;
 	}
 }
 @media only screen and (max-width: 1000px) {
-		/*Footer container styles*/
+	/*Header styles*/
+	header h1 {
+		width: 155px;
+		font-size: 2em;
+	}
+	/*Footer container styles*/
 	.design-selection, .design-archives, .zen-resources {
 		width:100% !important;
 		margin: 0px !important;
