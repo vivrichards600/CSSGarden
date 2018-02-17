@@ -9,6 +9,8 @@ body, input, select, textarea {
     font-weight: 400;
     letter-spacing: 0.075em;
 	margin:0;
+	background-color:black;
+	
 }
 
 header {
@@ -34,6 +36,7 @@ header h1 {
 
 header h2 {
 	position: absolute;
+  transform:rotate(-5deg);
     top: 40%;
     color: black;
     font-size: 2.5em;
