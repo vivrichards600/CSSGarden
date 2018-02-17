@@ -1,237 +1,226 @@
-@media screen and (max-width: 1680px)
-body, input, select, textarea {
-    font-size: 13pt;
+/*Common styles*/
+@media screen and (max-width: 1680px)body, input, select, textarea {
+	font-size: 13pt;
 }
-
 body, input, select, textarea {
-   font-family: "Open Sans", Helvetica, sans-serif;
-    font-size: 15pt;
-    font-weight: 400;
-    letter-spacing: 0.075em;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 400;
+	letter-spacing: 0.075em;
 	margin:0;
 	background-color:black;
-	
 }
-
-header {
-	    background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebe60893fc022aa0687d2/1479458410257/?format=1500w);
-       background-position: center; 
-     height: 100vh;
-     background-size: cover;
-	 
-	 
+h3 {
+	font-size:2em;
+	margin-top: 0px;
 }
-
-
-header h1 {
-    position: absolute;
-    top: -50px;
-    padding: 30px;
-    background-color: #00ADEF;
-    width: 225px;
-    font-size: 3em; 
-	color:white;
- }
-
-
-header h2 {
-	position: absolute;
-  transform:rotate(-5deg);
-    top: 40%;
-    color: black;
-    font-size: 2.5em;
-    background-color: white;
-    opacity: 0.8;
-    padding: 2px 5px;
-}
-
 a {
 	color:#00ADEF;
 }
-
 a:hover {
-	color:#036158;
+	color:#1580a9;
 }
-
 abbr {
 	cursor:help;
 }
+.wrapper {
+	width: 100%;
+	float: left;
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebde0893fc022aa06850b/1479458286611/?format=1500w);
+	background-position: center;
+	background-size: cover;
+	height:400px;
+}
 
+/*Header styles*/
+header {
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebe60893fc022aa0687d2/1479458410257/?format=1500w);
+	background-position: center;
+	height: 100vh;
+	background-size: cover;
+}
+header h1 {
+	position: absolute;
+	top: -50px;
+	padding: 30px;
+	background-color: #00ADEF;
+	width: 225px;
+	font-size: 3em;
+	color:white;
+}
+header h2 {
+	position: absolute;
+	transform:rotate(-5deg);
+	top: 40%;
+	color: black;
+	font-size: 2.5em;
+	background-color: white;
+	opacity: 0.8;
+	padding: 2px 5px;
+}
+
+/*Container styles*/
 .summary {
-    background-color: #ED028B;
-    color: white;
-    margin: 0px;
-    padding: 80px 160px;
-    text-align: center;
+	background-color: #ED028B;
+	color: white;
+	margin: 0px;
+	padding: 80px 160px;
+	text-align: center;
 }
-
-
 .summary a {
-	   /* background-color: #607185;
-   */ padding: 8px 10px;
+	padding: 8px 10px;
+    background-color: black;
     color: white;
-    border-radius: 5px;
-    clear: both;
+    text-transform: uppercase;
+    opacity: 0.8;
 }
-
 .summary a:hover {
 	color:#d6c5c5;
 }
-
-
 .preamble, .participation {
 	background-color: #fff;
-    color: #00ADEF;
-    margin: 0px;
-    padding: 80px 160px;
-    text-align: center;
+	color: #00ADEF;
+	margin: 0px;
+	padding: 80px 160px;
+	text-align: center;
 }
-
-h3 {
-	font-size:2em;
-}
-
 .preamble p, .participation p {
 	margin-top:40px;
 }
-
-
-
 .preamble a , .participation a, requirements a{
 	color: #00ADEF;
 }
-
 .preamble a:hover , .participation a:hover, requirements a:hover {
 	color:#1580a9;
 }
-
 .explanation, .benefits {
 	color: white;
-    text-align: center;
-	
-	
-	 background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebdf5893fc022aa06857b/1479458307769/?format=1500w);
-       background-position: center; 
-     background-size: cover;
-	
+	text-align: center;
+	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebdf5893fc022aa06857b/1479458307769/?format=1500w);
+	background-position: center;
+	background-size: cover;
 }
-
-
-
 .explanation h3, .benefits h3 {
-		background: rgb(140, 198, 62);
-    margin: 0;
-    opacity: 0.9;
-    padding-top: 70px;
+	background: rgb(140, 198, 62);
+	margin: 0;
+	opacity: 0.9;
+	padding-top: 70px;
 }
-
 .explanation p, .benefits p {
-    background: rgb(140, 198, 62);
-    opacity: 0.9;
+	background: rgb(140, 198, 62);
+	opacity: 0.9;
 	margin:0px;
 	padding: 10px 150px 80px 150px;
 }
-
 .benefits h3, .benefits p {
-	    background-color: #ed028b;
+	background-color: #ed028b;
 }
 .benefits p {
-	    background-color: #ed028b;
+	background-color: #ed028b;
 }
-
-
-
 .benefits {
 	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
-    
 }
-
 .requirements {
 	background-color: #fff;
-    color: #00ADEF;
-    margin: 0px;
-    padding: 80px 160px;
-    text-align: center;
+	color: #00ADEF;
+	margin: 0px;
+	padding: 80px 160px;
+	text-align: center;
 }
 
+/*Footer styles*/
 footer {
 	background-color: #00ADEF;
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	padding:20px;
-	
 }
-
 footer a {
 	color: #FFF;
 }
-
 footer a:hover {
 	color:#e8e1e1;
 }
 
-.wrapper {
-    width: 100%;
-    float: left;
-	
-	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebde0893fc022aa06850b/1479458286611/?format=1500w);
-	  background-position: center; 
-     background-size: cover;
-	 
-	 height:400px;
+
+/*Footer container styles*/
+
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+	margin-top:20px;
+	color:white !important;
 }
-
-
-
+.design-selection a, .design-selection p, .design-archives a, .design-archives p , .zen-resources a , .zen-resources p, li {
+	color:white !important;
+}
 .design-selection, .design-archives, .zen-resources {
 	width:30%;
 	float:left;
 	color:black;
 	margin: 25px;
-	
-	
 	background: rgb(255, 255, 255);
-    opacity: 0.9;
+	opacity: 0.9;
 }
-
-
 .design-selection a, .design-archives a, .zen-resources a {
 	color:black;
 }
-
-
 .design-selection a:hover, .design-archives a:hover, .zen-resources a:hover {
-	color:#e8e1e1;
+	color:#e8e1e1 !important;
 }
-
 .design-selection h3, .design-archives h3, .zen-resources h3 {
 	font-size:1.2em;
 	color:#000;
 	padding-left:40px;
-	
 }
-
-
-
 .design-selection {
 	background-color:#00ADEF;
-} 
-
+}
 .design-archives {
 	background-color:#ED028B;
-} 
-
-
+}
 .zen-resources {
 	background-color:rgb(140, 198, 62);
-	
 }
-
-
-
-
 .requirements, .participation, .preamble {
 	background-color:black;
 	color:white;
 }
 
+
+/*Media styles*/
+
+
+@media only screen and (max-width: 580px) {
+	/*Container styles*/
+	.summary a {
+		margin: 10px 10px !important;
+		display:block;
+	}
+}
+
+
+@media only screen and (max-width: 880px) {
+	/*Container styles*/
+	.summary, .preamble, .explanation p, .participation, .benefits p, .requirements {
+		padding: 50px 15px !important;
+	}
+	.explanation h3 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+		/*Footer container styles*/
+	.design-selection, .design-archives, .zen-resources {
+		width:100% !important;
+		margin: 0px !important;
+	}
+}
+@media only screen and (max-width: 1000px) {
+		/*Footer container styles*/
+	.design-selection, .design-archives, .zen-resources {
+		width:100% !important;
+		margin: 0px !important;
+	}
+}
