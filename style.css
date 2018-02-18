@@ -70,27 +70,50 @@ body, input, select, textarea {
 	letter-spacing: 0.075em;
 	margin:0;
 	background-color:black;
+	line-height:2em;
 }
 h3 {
 	font-size:2em;
 	margin-top: 0px;
 }
 a {
-	color:#00ADEF;
+	color:white;
 }
-a:hover {
+a:hover, abbr:hover {
 	color:#1580a9;
 }
-abbr {
+abbr, a {
 	cursor:help;
+	padding: 5px 10px;
+	opacity:0.8;
+	background-color:black;
+	color:white;
 }
+
+header abbr {
+	background-color:white;
+	color:black;
+}
+
+li {
+	line-height:2em;
+}
+
+.preamble, .requirements {
+    background-color: #00adef !important;
+    color: white;
+}
+
+.participation {
+	background-color:#ed028b !important;
+}
+
 .wrapper {
 	width: 100%;
 	float: left;
 	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebde0893fc022aa06850b/1479458286611/?format=1500w);
 	background-position: center;
 	background-size: cover;
-	height:400px;
 }
 
 /*Header styles*/
@@ -108,6 +131,7 @@ header h1 {
 	width: 225px;
 	font-size: 3em;
 	color:white;
+	line-height:1em;
 }
 header h2 {
 	position: absolute;
@@ -117,8 +141,13 @@ header h2 {
 	font-size: 2.5em;
 	background-color: white;
 	opacity: 0.8;
-	padding: 2px 5px;
+	padding: 15px;
 	font-weight: 400;
+}
+
+ h2 abbr {
+	padding:0px !important;
+	font-size:1em!important;
 }
 
 /*Container styles*/
@@ -130,7 +159,7 @@ header h2 {
 	text-align: center;
 }
 .summary a {
-	padding: 8px 10px;
+	padding: 5px 10px;
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -140,7 +169,7 @@ header h2 {
 	color:#d6c5c5;
 }
 .preamble, .participation {
-	background-color: #fff;
+	background-color: red;
 	color: #00ADEF;
 	margin: 0px;
 	padding: 80px 160px;
@@ -148,9 +177,6 @@ header h2 {
 }
 .preamble p, .participation p {
 	margin-top:40px;
-}
-.preamble a , .participation a, requirements a{
-	color: #00ADEF;
 }
 .preamble a:hover , .participation a:hover, requirements a:hover {
 	color:#1580a9;
@@ -162,6 +188,7 @@ header h2 {
 	background-position: center;
 	background-size: cover;
 }
+
 .explanation h3, .benefits h3 {
 	background: rgb(140, 198, 62);
 	margin: 0;
@@ -174,14 +201,24 @@ header h2 {
 	margin:0px;
 	padding: 10px 150px 80px 150px;
 }
+
+.benefits p, .benefits h3 {
+	background: rgb(0,173,329)!important;
+}
+
+
+.requirements p, .requirements h3, .requirements {
+	    background: rgb(140, 198, 62)!important;
+}
+/* 
 .benefits h3, .benefits p {
 	background-color: #ed028b;
 }
 .benefits p {
 	background-color: #ed028b;
-}
+} */
 .benefits {
-	background-image: url(https://static1.squarespace.com/static/5729c7b020c647c191178acf/t/582ebc17f7e0aba170939cf4/1479457823796/?format=1500w);
+	background-image: url(https://static.amazon.jobs/locations/47/images/Swansea_-_Image.jpg?1469074381);
 }
 .requirements {
 	background-color: #fff;
@@ -193,7 +230,7 @@ header h2 {
 
 /*Footer styles*/
 footer {
-	background-color: #00ADEF;
+	background-color: black;
 	color: white;
 	text-align: center;
 	padding:20px;
