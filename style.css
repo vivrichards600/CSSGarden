@@ -99,15 +99,6 @@ li {
 	line-height:2em;
 }
 
-.preamble, .requirements {
-    background-color: #00adef !important;
-    color: white;
-}
-
-.participation {
-	background-color:#ed028b !important;
-}
-
 .wrapper {
 	width: 100%;
 	float: left;
@@ -168,6 +159,16 @@ header h2 {
 .summary a:hover {
 	color:#d6c5c5;
 }
+
+.preamble, .requirements {
+    background-color: #00adef !important;
+    color: white;
+}
+
+.participation {
+	background-color:#ed028b !important;
+}
+
 .preamble, .participation {
 	background-color: red;
 	color: #00ADEF;
@@ -194,6 +195,7 @@ header h2 {
 	margin: 0;
 	opacity: 0.9;
 	padding-top: 70px;
+	padding-bottom:40px;
 }
 .explanation p, .benefits p {
 	background: rgb(140, 198, 62);
